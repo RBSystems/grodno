@@ -1,0 +1,14 @@
+<Device Model="DIN-AP3">
+   <Network Type="Cresnet" Id="01">
+      <Device Model="C2N-VEQ4" DeviceId="0A" Name="C2N-VEQ4 (2 Series)"/>
+      <Device Model="DIN-2MC2" DeviceId="0B"/>
+      <Device Model="DIN-DALI-2" DeviceId="0C" Name="DIN-DALI-2 (Cresnet) (Firmware v3.xxx.xxxx)"/>
+      <Device Model="CLWI-KPLCN" DeviceId="10"/>
+      <Device Model="CLWI-KPLCN" DeviceId="11"/>
+   </Network>
+   <Network Type="Ethernet" Id="02">
+      <Device Model="Crestron_App" DeviceId="0A" Name="Crestron App"/>
+      <Device Model="Core3 UI XPanel" DeviceId="0B" Name="XPanel 2.0 Smart Graphics"/>
+      <Device Model="HD-MD4X2-4K-E" DeviceId="0C"/>
+   </Network>
+</Device>
